@@ -62,13 +62,13 @@ class _MyHomePageState extends State<MyHomePage> {
         //AI Winner
         if ((_randomSelection == _randomSelectionArray[0]) &&
             _userSelection == _randomSelectionArray[0]) {
-          _status = "YOU LOSE!";
+          _status = "DRAW!";
         } else if ((_randomSelection == _randomSelectionArray[1]) &&
             _userSelection == _randomSelectionArray[1]) {
-          _status = "YOU LOSE!";
+          _status = "DRAW!";
         } else if ((_randomSelection == _randomSelectionArray[2]) &&
             _userSelection == _randomSelectionArray[2]) {
-          _status = "YOU LOSE!";
+          _status = "DRAW!";
         }
       },
     );
