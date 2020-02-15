@@ -59,7 +59,6 @@ class _MyHomePageState extends State<MyHomePage> {
         }
 
         //DRAW
-        //AI Winner
         if ((_randomSelection == _randomSelectionArray[0]) &&
             _userSelection == _randomSelectionArray[0]) {
           _status = "DRAW!";
