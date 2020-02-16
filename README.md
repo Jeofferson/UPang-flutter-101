@@ -1,6 +1,6 @@
-# PHINMA-UPang Dagupan City - Flutter 101 : Rock, Papers, and Scissors
+# PD Meet up 12: Flutter 101 - Rock, Papers, and Scissors game.
 
-Demo project for the students of PHINMA - University of Pangsainan, Dagupan City, Pangasinan
+Demo project for the students of PHINMA - University of Pangasinan, Dagupan City, Pangasinan
 
 ## Prerequisites
 - [Flutter](https://flutter.dev/) - Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
@@ -14,12 +14,13 @@ Demo project for the students of PHINMA - University of Pangsainan, Dagupan City
 ## Usage
 ### Download or Clone the project.
 ```
-    git clone <Link here>
+    git clone https://github.com/Jansalvador1445/UPang-flutter-101
 ```
 
-or Download the zip file : [Download](<Link here>)
+or Download the zip file : [Download](https://github.com/Jansalvador1445/UPang-flutter-101/archive/master.zip)
 
 ### Run the Sample Project.
+
 Mobile Devices
 ```
     cd UPang-flutter-101
@@ -41,3 +42,7 @@ Web Devices
 - [Facebook Page](https://www.facebook.com/flutterphilippines/)
 - [Facebook Group](https://www.facebook.com/groups/flutterphilippines/)
 - [Github](https://github.com/flutterph)
+
+
+
+
