@@ -1,16 +1,48 @@
-# flutter_101_demo
+# PD Meet up 12: Flutter 101 - Rock, Papers, and Scissors game.
 
-A new Flutter project.
+Demo project for the students of PHINMA - University of Pangasinan, Dagupan City, Pangasinan
 
-## Getting Started
+## Prerequisites
+- [Flutter](https://flutter.dev/) - Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
 
-This project is a starting point for a Flutter application.
+## Installation
+- [Mac](https://flutter.dev/docs/get-started/install/macos)
+- [Linux](https://flutter.dev/docs/get-started/install/linux)
+- [Windows](https://flutter.dev/docs/get-started/install/windows)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Usage
+### Download or Clone the project.
+```
+    git clone https://github.com/Jansalvador1445/UPang-flutter-101
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+or Download the zip file : [Download](https://github.com/Jansalvador1445/UPang-flutter-101/archive/master.zip)
+
+### Run the Sample Project.
+
+Mobile Devices
+```
+    cd UPang-flutter-101
+    flutter pub get
+    flutter run
+```
+
+Web Devices
+```
+    cd UPang-flutter-101
+    flutter pub get
+    flutter run -d chrome
+```
+
+## Flutter Philippines
+- [Website](https://flutter.ph/#/)
+- [Meetup](https://www.meetup.com/flutterph/)
+- [Twitter](https://twitter.com/flutter_ph)
+- [Facebook Page](https://www.facebook.com/flutterphilippines/)
+- [Facebook Group](https://www.facebook.com/groups/flutterphilippines/)
+- [Github](https://github.com/flutterph)
+
+
+
+
