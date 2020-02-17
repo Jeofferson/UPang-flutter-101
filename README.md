@@ -21,14 +21,14 @@ or Download the zip file : [Download](https://github.com/Jansalvador1445/UPang-f
 
 ### Run the Sample Project.
 
-Mobile Devices
+Mobile 
 ```
     cd UPang-flutter-101
     flutter pub get
     flutter run
 ```
 
-Web Devices
+Web 
 ```
     cd UPang-flutter-101
     flutter pub get
