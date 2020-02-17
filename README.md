@@ -3,7 +3,7 @@
 Demo project for the students of PHINMA - University of Pangasinan, Dagupan City, Pangasinan
 
 ## Sample Images
-![alt text] (https://github.com/Jansalvador1445/UPang-flutter-101/blob/develop/images/Android.png)
+- ![alt text] (https://github.com/Jansalvador1445/UPang-flutter-101/blob/develop/images/Android.png)
 
 ## Prerequisites
 - [Flutter](https://flutter.dev/) - Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
