@@ -76,28 +76,42 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //Appbar and title
       appBar: AppBar(
         title: Text("Flutter 101"),
       ),
+      //Container - is a convenience widget that combines common painting, positioning, and sizing widgets
       body: Container(
+        //EdgeInsets -  An immutable set of offsets in each of the four cardinal directions.
         margin: EdgeInsets.all(10),
+        // Center - Putting it in the middle
+        // Child - for single widget
         child: Center(
+          //Column - create a vertical array of widgets
           child: Column(
+            // MainAxisAlignment - Horizontal Alignement
             mainAxisAlignment: MainAxisAlignment.center,
+            // Children - Multiple Widget
             children: <Widget>[
               Container(
                 width: 280,
                 height: 150,
                 margin: EdgeInsets.all(25),
+                // Colors.<color> - Fixed/static colors/ default colors from the project
+                // Color(0xFF<xxxxxx>) - for Hexadecimal Colors
                 color: Colors.teal,
                 child: Center(
                     child: Column(
+                  // MainAxisAlignment - Horizontal Alignement
+                  // CorssAxisAlignment - Vertical Alignement
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
+                    //Text - Label
                     Text(
-                      _status,
-                      textAlign: TextAlign.center,
+                      _status, // String value here
+                      textAlign: TextAlign.center, // TextAlignment
+                      //TextStyle - text can change fonts,size, weight and more
                       style: TextStyle(
                         fontSize: 30,
                       ),
@@ -106,18 +120,26 @@ class _MyHomePageState extends State<MyHomePage> {
                   ],
                 )),
               ),
+              //Row - create a horizontal array of widgets
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
+                  // FlatButton - is a text label displayed on a (zero elevation) Material widget that reacts to touches by filling with color.
                   FlatButton(
                     padding: EdgeInsets.all(15),
                     color: Colors.cyan,
+                    //onPressed - Action when pressing
                     onPressed: () {
                       _userSelection = "ROCK";
+                      //setState - this are is calling setState named "_validator". Basically,notifies
+                      // the framework that the internal state of this object has changed in a way that
+                      // might impact the user interface in this subtree, which causes the framework to
+                      // schedule a build for this State object
                       _validator();
                     },
                     child: Text("ROCK"),
                   ),
+                  // widget view in flutter is used to create box with specified width and height.
                   SizedBox(width: 3),
                   FlatButton(
                     padding: EdgeInsets.all(15),
